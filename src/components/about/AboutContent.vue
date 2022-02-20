@@ -1,0 +1,106 @@
+<template>
+  <div class="aboutcontent">
+    <b-container fluid>
+      <b-row>
+        <b-col>
+          <div class="headerContainer">
+            <h1 class="headerAbout">
+              Puppy Cafe is a private space to enjoy by cuddiling your fauvorite
+              pets. Take a break and deep breath, welcome to Puppy Cafe.
+            </h1>
+          </div>
+        </b-col>
+      </b-row>
+
+      <b-row>
+        <b-col class="columnImg">
+          <div class="imgOne">
+            <img
+              class="imgOne"
+              alt="Image puppy cafe"
+              src="../../assets/img/about/img-4.jpg"
+            />
+          </div>
+        </b-col>
+      </b-row>
+
+      <b-row class="sloganRow">
+        <b-col>
+          <h1 class="slogan">
+            <strong>Tranquility +</strong><br />
+            harmony
+          </h1>
+        </b-col>
+        <b-col>
+          <div class="sloganParagraphContainer">
+            <p class="sloganFirstParagraph">
+              This is a space create to enjoy with your favourite people and
+              your most loved ones. Don't worry about anything just take a break
+              from the outside world and get this beloved disconnection.
+            </p>
+
+            <p class="sloganSecondParagraph">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </p>
+          </div>
+        </b-col>
+      </b-row>
+    </b-container>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "AboutContent",
+};
+</script>
+
+<style>
+.headerContainer {
+  float: right;
+  width: 60%;
+  margin: 80px;
+}
+
+.headerAbout {
+  line-height: 75px;
+  font-size: 60px;
+}
+
+.columnImg {
+  padding: 0;
+}
+
+.imgOne {
+  width: 100%;
+  height: auto;
+}
+
+.sloganRow {
+  margin-top: 70px;
+  height: 260px;
+}
+
+.slogan {
+  font-style: italic;
+  font-size: 65px;
+  padding-left: 50px;
+}
+
+.sloganParagraphContainer {
+  width: 90%;
+}
+
+.sloganFirstParagraph {
+  font-weight: bold;
+}
+
+.sloganSecondParagraph {
+  margin-top: 45px;
+}
+</style>

@@ -5,13 +5,11 @@
 </template>
 
 <script>
-// @ is an alias to /src
-import HomeContent from "@/components/home/HomeContent.vue";
-
 export default {
   name: "Home",
   components: {
-    HomeContent,
+    // @ is an alias to /src
+    HomeContent: () => import("@/components/home/HomeContent.vue"),
   },
 };
 </script>

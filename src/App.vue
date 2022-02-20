@@ -4,9 +4,9 @@
       <NavBar />
     </div>
     <router-view />
-    <div id="footer">
+    <!-- <div id="footer">
       <Footer />
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -15,7 +15,7 @@ export default {
   name: "App",
   components: {
     NavBar: () => import("@/components/layouts/NavBar.vue"),
-    Footer: () => import("@/components/layouts/Footer.vue"),
+    // Footer: () => import("@/components/layouts/Footer.vue"),
   },
 };
 </script>
