@@ -2,25 +2,33 @@
   <div id="app">
     <div id="nav">
       <NavBar />
-      <!-- <router-link to="/">Home</router-link> |
-            <router-link to="/about">About</router-link> -->
     </div>
     <router-view />
+    <div id="footer">
+      <Footer />
+    </div>
   </div>
 </template>
 
 <script>
-import NavBar from "@/components/NavBar.vue";
 export default {
   name: "App",
   components: {
-    NavBar,
+    NavBar: () => import("@/components/layouts/NavBar.vue"),
+    Footer: () => import("@/components/layouts/Footer.vue"),
   },
 };
 </script>
 
 <style>
-#app {
+#nav {
+  display: block;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -39,5 +47,5 @@ export default {
 
 #nav a.router-link-exact-active {
   color: #42b983;
-}
+} */
 </style>

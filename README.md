@@ -57,3 +57,13 @@ Install Volar Vue extension to work with VSCode efficiently
 ######
 
 Start development with: `npm run serve`
+
+## Different ways to import components:
+
+> https://stackoverflow.com/questions/49154490/did-you-register-the-component-correctly-for-recursive-components-make-sure-to
+
+> https://michaelnthiessen.com/solve-unknown-custom-element-vue
+
+## Style router links
+
+> https://stackoverflow.com/questions/46083220/how-to-vuejs-router-link-active-style
