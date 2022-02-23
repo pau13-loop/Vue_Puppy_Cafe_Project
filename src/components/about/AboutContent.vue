@@ -1,6 +1,8 @@
 <template>
   <div class="aboutcontent">
     <b-container fluid>
+      <!-- Header -->
+
       <b-row>
         <b-col>
           <div class="headerContainer">
@@ -11,6 +13,8 @@
           </div>
         </b-col>
       </b-row>
+
+      <!-- Image -->
 
       <b-row>
         <b-col class="columnImg">
@@ -23,6 +27,8 @@
           </div>
         </b-col>
       </b-row>
+
+      <!-- Slogan -->
 
       <b-row class="sloganRow">
         <b-col>
@@ -50,6 +56,113 @@
           </div>
         </b-col>
       </b-row>
+
+      <!-- Description 01 -->
+      <b-row class="descriptionRow">
+        <b-col class="descriptionLeftColumn">
+          <div>
+            <h3 class="headerDescription">Experience</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting.
+            </p>
+          </div>
+        </b-col>
+        <b-col><h1 class="numberColumn">01</h1></b-col>
+      </b-row>
+
+      <!-- Description 02 -->
+      <b-row class="descriptionRow">
+        <b-col><h1 class="numberColumn">02</h1></b-col>
+        <b-col class="descriptionRightColumn">
+          <div>
+            <h3 class="headerDescription">Innovation</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting.
+            </p>
+          </div>
+        </b-col>
+      </b-row>
+
+      <!-- Description 03 -->
+      <b-row class="descriptionRow">
+        <b-col class="descriptionLeftColumn">
+          <div>
+            <h3 class="headerDescription">Motivation</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting.
+            </p>
+          </div>
+        </b-col>
+        <b-col><h1 class="numberColumn">03</h1></b-col>
+      </b-row>
+
+      <!-- Description 04 -->
+      <b-row class="descriptionRow">
+        <b-col><h1 class="numberColumn">04</h1></b-col>
+        <b-col class="descriptionRightColumn">
+          <div>
+            <h3 class="headerDescription">Passion</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting.
+            </p>
+          </div>
+        </b-col>
+      </b-row>
+
+      <!-- Image -->
+
+      <b-row>
+        <b-col class="columnImg">
+          <div class="imgOne">
+            <img
+              class="imgOne"
+              alt="Image puppy cafe"
+              src="../../assets/img/about/img-5.jpg"
+            />
+          </div>
+        </b-col>
+      </b-row>
+
+      <!-- Contact us -->
+      <b-row class="contactUsRow">
+        <b-col>
+          <div class="first scaledParagraph">
+            <p>If you are wondering who we are,</p>
+          </div>
+          <div class="second scaledParagraph">
+            <p>and which activities we do,</p>
+          </div>
+          <div class="third scaledParagraph">
+            <p>and maybe you fancy know a bit more</p>
+          </div>
+          <div class="forth scaledParagraph">
+            <p><strong>about us</strong></p>
+          </div>
+        </b-col>
+        <b-col class="contactUsColumn">
+          <h1>Contact us <i class="fa-solid fa-arrow-right"></i></h1>
+        </b-col>
+      </b-row>
     </b-container>
   </div>
 </template>
@@ -61,6 +174,7 @@ export default {
 </script>
 
 <style>
+/* Header Block */
 .headerContainer {
   float: right;
   width: 60%;
@@ -72,6 +186,7 @@ export default {
   font-size: 60px;
 }
 
+/* Image Block */
 .columnImg {
   padding: 0;
 }
@@ -81,6 +196,7 @@ export default {
   height: auto;
 }
 
+/* Slogan Block */
 .sloganRow {
   margin-top: 70px;
   height: 260px;
@@ -102,5 +218,67 @@ export default {
 
 .sloganSecondParagraph {
   margin-top: 45px;
+}
+
+/* Description Block */
+
+.descriptionRow {
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
+.numberColumn {
+  text-align: center;
+  font-size: 120px;
+  font-style: italic;
+}
+
+.descriptionLeftColumn {
+  text-align: end;
+  display: inline-block;
+}
+
+.descriptionRightColumn {
+  text-align: start;
+  display: inline-block;
+}
+
+.headerDescription {
+  font-style: italic;
+}
+
+/* Contact us */
+
+.contactUsRow {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.scaledParagraph {
+  margin: 30px;
+  font-size: 25px;
+}
+
+.first {
+  text-align: start;
+}
+
+.second {
+  text-align: center;
+}
+
+.third {
+  text-align: end;
+}
+
+.forth {
+  text-align: center;
+  margin-right: 160px;
+}
+
+.contactUsColumn {
+  max-width: 40%;
+  margin: auto;
+  text-align: center;
 }
 </style>
