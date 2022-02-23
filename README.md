@@ -50,7 +50,7 @@ Install Volar Vue extension to work with VSCode efficiently
 
 ### YouTube BootstrapVue project tutorial
 
-> vue create <name proeject> asdasd
+> vue create <name proeject>
 
 > vue add bootstrap-vue
 
