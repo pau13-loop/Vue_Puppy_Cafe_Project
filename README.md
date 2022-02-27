@@ -67,3 +67,7 @@ Start development with: `npm run serve`
 ## Style router links
 
 > https://stackoverflow.com/questions/46083220/how-to-vuejs-router-link-active-style
+
+## nav tag, why role property
+
+> https://stackoverflow.com/questions/14911038/nav-role-navigation

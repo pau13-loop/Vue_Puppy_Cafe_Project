@@ -20,7 +20,7 @@
       </b-row>
 
       <!-- SECTIONS and IMAGES -->
-      <b-row>
+      <b-row class="rowImagesHome">
         <b-col class="columnImgHome columnImgHomeLeft">
           <img
             src="../assets/img/home/img-2.jpg"
@@ -43,7 +43,7 @@
         </b-col>
       </b-row>
 
-      <b-row class="left">
+      <b-row class="left rowImagesHome">
         <b-col class="columnTextImage">
           <div class="containerTextImageLeft">
             <h3 class="headerTextImage textLeft">
@@ -67,7 +67,7 @@
         </b-col>
       </b-row>
 
-      <b-row>
+      <b-row class="rowImagesHome">
         <b-col class="columnImgHome columnImgHomeLeft">
           <img
             src="../assets/img/home/img-6.jpg"
@@ -91,12 +91,11 @@
         </b-col>
       </b-row>
 
-      <b-row class="left">
+      <b-row class="left rowImagesHome">
         <b-col class="columnTextImage">
           <div class="containerTextImageLeft">
             <h3 class="headerTextImage textLeft">
-              Confidence and trust always will make the best friendships between
-              animal kingdom and human kind
+              Confidence and trust always will make the best friendships
             </h3>
             <p class="paragraphTextImage">
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -183,7 +182,7 @@ export default {
 }
 
 .headerColumn {
-  margin-top: 135px;
+  margin-top: 50px;
 }
 
 .headerColumnTitle {
@@ -197,7 +196,7 @@ export default {
 
 .textHeader {
   width: 85%;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 /* IMAGES SECTION */
@@ -205,6 +204,22 @@ export default {
 /* .left {
   float: left;
 } */
+
+.rowImagesHome {
+  column-gap: 35px;
+  position: relative;
+  animation: mymove 5s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes mymove {
+  from {
+    left: -300px;
+  }
+  to {
+    left: 0px;
+  }
+}
 
 .columnImgHome {
   max-height: 1000px;

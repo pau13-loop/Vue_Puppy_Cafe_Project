@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- <b-navbar toggleable="lg" type="dark" variant="secondary"> -->
     <b-navbar toggleable="lg" variant="secondary">
       <b-navbar-brand>
         <router-link to="/home" style="color: white"
@@ -23,7 +22,6 @@
           </b-nav-item>
         </b-navbar-nav>
 
-        <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
           <b-nav-form>
             <b-form-input
@@ -52,7 +50,6 @@
           </b-nav-item-dropdown>
 
           <b-nav-item-dropdown right toggle-class="text-light">
-            <!-- Using 'button-content' slot -->
             <template #button-content>
               <em>User</em>
             </template>
@@ -66,6 +63,17 @@
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
+
+    <!-- <nav class="" role="navigation">
+      <ul class="">
+        <li class="active"><a href="#" class="nav-link">Home</a></li>
+        <li><a href="#" class="nav-link">Portfolio</a></li>
+        <li><a href="#" class="nav-link">About</a></li>
+        <li><a href="#" class="nav-link">Services</a></li>
+        <li><a href="#" class="nav-link">Blog</a></li>
+        <li><a href="#" class="nav-link">Contact</a></li>
+      </ul>
+    </nav> -->
   </div>
 </template>
 
