@@ -71,3 +71,7 @@ Start development with: `npm run serve`
 ## nav tag, why role property
 
 > https://stackoverflow.com/questions/14911038/nav-role-navigation
+
+## Vue bind images by Props
+
+> https://www.codegrepper.com/code-examples/javascript/how+to+pass+image+as+props+in+vue+js

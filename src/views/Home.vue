@@ -43,7 +43,17 @@
         </b-col>
       </b-row>
 
-      <b-row class="left rowImagesHome">
+      <HomeRowPets
+        v-bind:isLeft="true"
+        imagePath="img-2.jpg"
+        headerText="We care for them as much as they care for us too"
+        contextText=" Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry. Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry."
+      />
+
+      <!-- <b-row class="left rowImagesHome">
         <b-col class="columnTextImage">
           <div class="containerTextImageLeft">
             <h3 class="headerTextImage textLeft">
@@ -112,7 +122,7 @@
             class="imageHome"
           />
         </b-col>
-      </b-row>
+      </b-row> -->
 
       <!-- 
       <b-row>
@@ -166,6 +176,7 @@
 export default {
   name: "Home",
   components: {
+    HomeRowPets: () => import("@/components/HomeRowPets.vue"),
     // @ is an alias to /src
     // HomeContent: () => import("@/components/home/HomeContent.vue"),
   },
