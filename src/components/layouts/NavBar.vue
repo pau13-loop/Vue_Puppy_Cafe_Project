@@ -2,7 +2,7 @@
   <div>
     <b-navbar toggleable="lg" variant="secondary">
       <b-navbar-brand>
-        <router-link to="/home" style="color: white"
+        <router-link to="/" style="color: white"
           ><h2>Puppy Cafe</h2></router-link
         ></b-navbar-brand
       >
@@ -63,17 +63,6 @@
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
-
-    <!-- <nav class="" role="navigation">
-      <ul class="">
-        <li class="active"><a href="#" class="nav-link">Home</a></li>
-        <li><a href="#" class="nav-link">Portfolio</a></li>
-        <li><a href="#" class="nav-link">About</a></li>
-        <li><a href="#" class="nav-link">Services</a></li>
-        <li><a href="#" class="nav-link">Blog</a></li>
-        <li><a href="#" class="nav-link">Contact</a></li>
-      </ul>
-    </nav> -->
   </div>
 </template>
 
@@ -84,11 +73,6 @@ export default {
 </script>
 
 <style>
-/* .navbar-dark .navbar-nav .nav-link {
-  color: white !important;
-}
- */
-
 .router-link-active {
   color: pink !important;
 }
