@@ -1,9 +1,9 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" variant="secondary">
+    <b-navbar variant="secondary">
       <b-navbar-brand>
         <router-link to="/" style="color: white"
-          ><h2>Puppy Cafe</h2></router-link
+          ><h2>Puppy Café</h2></router-link
         ></b-navbar-brand
       >
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
