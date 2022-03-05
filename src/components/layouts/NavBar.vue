@@ -2,7 +2,7 @@
   <div>
     <b-navbar variant="secondary">
       <b-navbar-brand>
-        <router-link to="/" style="color: white"
+        <router-link to="/" style="color: #fcebf1"
           ><h2>Puppy Café</h2></router-link
         ></b-navbar-brand
       >
@@ -73,7 +73,7 @@ export default {
 </script>
 
 <style>
-.router-link-active {
+.router-link-exact-active {
   color: pink !important;
 }
 

@@ -3,7 +3,11 @@
     <div id="nav">
       <NavBar />
     </div>
-    <router-view />
+
+    <div id="content">
+      <router-view />
+    </div>
+
     <div id="footer">
       <Footer />
     </div>
@@ -21,31 +25,20 @@ export default {
 </script>
 
 <style>
-#nav {
-  display: block;
-  position: sticky;
-  top: 0;
-  z-index: 1;
+* {
+  font-family: "Sora", sans-serif;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
-/* #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+#content {
+  flex: 1 0 auto;
 }
 
-#nav {
-  padding: 15px;
+#footer {
+  flex-shrink: 0;
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-} */
 </style>
