@@ -7,7 +7,7 @@
     <b-col class="descriptionRightColumn">
       <div>
         <h3 class="headerDescription">{{ headerSection }}</h3>
-        <p>
+        <p class="contextSectionAbout">
           {{ contextSection }}
         </p>
       </div>
@@ -19,7 +19,7 @@
     <b-col class="descriptionLeftColumn">
       <div>
         <h3 class="headerDescription">{{ headerSection }}</h3>
-        <p>
+        <p class="contextSectionAbout">
           {{ contextSection }}
         </p>
       </div>
@@ -54,6 +54,7 @@ export default {
   text-align: center;
   font-size: 120px;
   font-style: italic;
+  font-weight: 400;
 }
 
 .descriptionLeftColumn {
@@ -68,5 +69,10 @@ export default {
 
 .headerDescription {
   font-style: italic;
+  font-weight: 700;
+}
+
+.contextSectionAbout {
+  font-weight: 300;
 }
 </style>

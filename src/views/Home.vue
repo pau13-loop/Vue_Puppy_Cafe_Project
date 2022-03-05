@@ -11,10 +11,7 @@
           <p class="textHeader">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
+            ever since the 1500s, when an unknown printer took a galley.
           </p>
         </b-col>
       </b-row>
@@ -36,7 +33,7 @@
       <HomeRowPets
         v-bind:isLeft="false"
         imagePath="img-3.jpg"
-        headerText="Integrity is the foundation of good business, and we value it
+        headerText="Integrity is the base of good business, and we value it
               above all"
         contextText="Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.Lorem Ipsum is simply dummy text of the printing and
@@ -98,11 +95,13 @@ export default {
 }
 
 .headerTitle {
-  font-size: 40px;
+  font-size: 20px;
+  font-weight: 800;
 }
 
 .textHeader {
   width: 85%;
-  font-size: 30px;
+  font-size: 45px;
+  font-weight: 100;
 }
 </style>

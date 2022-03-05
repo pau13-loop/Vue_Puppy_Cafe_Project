@@ -75,7 +75,7 @@ export default {
 
 .columnImgHome {
   max-height: 120vh;
-  max-width: 50%;
+  max-width: 100vh;
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
@@ -104,10 +104,12 @@ export default {
 .headerTextImage {
   font-size: 70px;
   font-style: italic;
-  font-weight: bold;
+  font-weight: 400;
+  line-height: 85px;
 }
 
 .paragraphTextImage {
   font-style: italic;
+  font-weight: 200;
 }
 </style>

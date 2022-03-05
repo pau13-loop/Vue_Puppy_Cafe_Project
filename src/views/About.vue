@@ -135,7 +135,9 @@
           </div>
         </b-col>
         <b-col class="contactUsColumn">
-          <h1>Contact us <i class="fa-solid fa-arrow-right"></i></h1>
+          <h1 class="contactUsAbout">
+            Contact us <i class="fa-solid fa-arrow-right"></i>
+          </h1>
         </b-col>
       </b-row>
     </b-container>
@@ -160,8 +162,9 @@ export default {
 }
 
 .headerAbout {
-  line-height: 75px;
+  line-height: 80px;
   font-size: 60px;
+  font-weight: 300;
 }
 
 /* Image Block */
@@ -184,6 +187,7 @@ export default {
   font-style: italic;
   font-size: 65px;
   padding-left: 50px;
+  font-weight: 100;
 }
 
 .sloganParagraphContainer {
@@ -191,11 +195,12 @@ export default {
 }
 
 .sloganFirstParagraph {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .sloganSecondParagraph {
-  margin-top: 45px;
+  margin-top: 30px;
+  font-weight: 200;
 }
 
 /* Contact us */
@@ -212,24 +217,33 @@ export default {
 
 .first {
   text-align: start;
+  font-weight: 100;
 }
 
 .second {
   text-align: center;
+  font-weight: 300;
 }
 
 .third {
   text-align: end;
+  font-weight: 500;
 }
 
 .forth {
   text-align: center;
   margin-right: 160px;
+  font-weight: 700;
 }
 
 .contactUsColumn {
   max-width: 40%;
   margin: auto;
   text-align: center;
+  font-weight: 900;
+}
+
+.contactUsAbout {
+  font-weight: 900;
 }
 </style>
