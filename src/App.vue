@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <div id="navBar">
       <NavBar />
     </div>
 
@@ -28,17 +28,27 @@ export default {
 * {
   font-family: "Sora", sans-serif;
 }
+
 #app {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+#navBar {
+  grid-area: header;
 }
 
 #content {
-  flex: 1 0 auto;
+  grid-area: main;
 }
 
 #footer {
-  flex-shrink: 0;
+  grid-area: footer;
 }
 </style>
