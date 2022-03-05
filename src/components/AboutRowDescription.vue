@@ -1,7 +1,7 @@
 <template>
   <!-- LEFT DESCRIPTION -->
   <b-row v-if="isLeft" class="descriptionRow">
-    <b-col
+    <b-col class="numberCol"
       ><h1 class="numberColumn">{{ numberSection }}</h1></b-col
     >
     <b-col class="descriptionRightColumn">
@@ -24,7 +24,7 @@
         </p>
       </div>
     </b-col>
-    <b-col
+    <b-col class="numberCol"
       ><h1 class="numberColumn">{{ numberSection }}</h1></b-col
     >
   </b-row>

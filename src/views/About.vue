@@ -246,4 +246,35 @@ export default {
 .contactUsAbout {
   font-weight: 900;
 }
+
+@media only screen and (max-width: 768px) {
+  .headerContainer {
+    width: auto;
+    margin: 15px;
+  }
+
+  .headerAbout {
+    line-height: 60px;
+    font-size: 30px;
+  }
+
+  .sloganRow {
+    height: auto;
+  }
+
+  .sloganParagraphContainer {
+    width: auto;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .numberCol {
+    align-self: center;
+  }
+
+  .contactUsRow {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
 </style>
