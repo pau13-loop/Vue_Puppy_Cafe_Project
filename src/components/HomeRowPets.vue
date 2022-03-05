@@ -102,7 +102,7 @@ export default {
 }
 
 .headerTextImage {
-  font-size: 70px;
+  font-size: 60px;
   font-style: italic;
   font-weight: 400;
   line-height: 85px;
