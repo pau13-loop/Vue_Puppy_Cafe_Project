@@ -1,4 +1,8 @@
-# Vue_Puppy_Cafe_Project
+# Puppy Café
+
+## Ligthouse
+
+![Alt text](src/assets/img/doc/performance.jpeg "Title")
 
 ## Link to RELEASE of Netlify
 
@@ -32,9 +36,7 @@ npm run lint
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-###########################################################################################################################
-
-# Custom README.md
+# Relevant Information
 
 ### Atención
 
