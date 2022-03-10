@@ -67,7 +67,7 @@ export default {
 .headerRow {
   height: 100vh;
   color: white;
-  /* background-image: url("../assets/img/home/img-1.webp"); */
+  background-image: url("../assets/img/home/img-1.webp");
 }
 
 .headerColumn {
