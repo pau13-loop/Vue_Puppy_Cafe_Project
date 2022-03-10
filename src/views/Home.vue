@@ -4,7 +4,6 @@
       <!-- Header -->
       <b-row cols="1" cols-lg="2" class="headerRow">
         <b-col class="headerColumn headerColumnTitle">
-          <!-- <i class="fa-solid fa-paw iconHome"></i> -->
           <h3 class="headerTitle">Who we are</h3>
         </b-col>
         <b-col lg="7" class="headerColumn">
@@ -21,7 +20,7 @@
       <!-- IMG 1 -->
       <HomeRowPets
         v-bind:isLeft="true"
-        imagePath="img-2.jpg"
+        imagePath="img-2.webp"
         headerText="We care for them as much as they care for us too"
         contextText="Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry."
       />
@@ -29,7 +28,7 @@
       <!-- IMG 2 -->
       <HomeRowPets
         v-bind:isLeft="false"
-        imagePath="img-3.jpg"
+        imagePath="img-3.webp"
         headerText="Integrity is the base of good business"
         contextText="Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry."
       />
@@ -37,7 +36,7 @@
       <!-- IMG 3 -->
       <HomeRowPets
         v-bind:isLeft="true"
-        imagePath="img-6.jpg"
+        imagePath="img-6.webp"
         headerText="How we transformed The Puppy Cafe into a modern space"
         contextText="Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry."
       />
@@ -45,7 +44,7 @@
       <!-- IMG 4 -->
       <HomeRowPets
         v-bind:isLeft="false"
-        imagePath="img-5.jpg"
+        imagePath="img-5.webp"
         headerText="Confidence and trust always will make the best friendships"
         contextText="Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry."
       />
@@ -68,11 +67,11 @@ export default {
 .headerRow {
   height: 100vh;
   color: white;
-  background-image: url("../assets/img/home/img-1.jpg");
+  background-image: url("../assets/img/home/img-1.webp");
 }
 
 .headerColumn {
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 .headerColumnTitle {

@@ -22,7 +22,7 @@
             <img
               class="imgOne"
               alt="Image puppy cafe"
-              src="../assets/img/about/img-4.jpg"
+              src="../assets/img/about/img-4.webp"
             />
           </div>
         </b-col>
@@ -112,7 +112,7 @@
             <img
               class="imgOne"
               alt="Image puppy cafe"
-              src="../assets/img/about/img-5.jpg"
+              src="../assets/img/about/img-5.webp"
             />
           </div>
         </b-col>

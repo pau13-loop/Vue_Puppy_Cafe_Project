@@ -68,14 +68,7 @@
 </template>
 
 <script>
-// import { mdbFooter, mdbContainer, mdbRow, mdbCol } from "mdbvue";
 export default {
   name: "Footer",
-  // components: {
-  //   mdbFooter,
-  //   mdbContainer,
-  //   mdbRow,
-  //   mdbCol,
-  // },
 };
 </script>

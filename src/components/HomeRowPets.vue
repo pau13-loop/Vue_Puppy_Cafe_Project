@@ -60,18 +60,7 @@ export default {
 .rowImagesHome {
   column-gap: 35px;
   position: relative;
-  /* animation: mymove 5s;
-  animation-timing-function: ease-in; */
 }
-
-/* @keyframes mymove {
-  from {
-    left: -300px;
-  }
-  to {
-    left: 0px;
-  }
-} */
 
 .columnImgHome {
   max-height: 120vh;

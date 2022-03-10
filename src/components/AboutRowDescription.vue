@@ -43,8 +43,6 @@ export default {
 </script>
 
 <style>
-/* Description Block */
-
 .descriptionRow {
   margin-top: 65px;
   margin-bottom: 65px;

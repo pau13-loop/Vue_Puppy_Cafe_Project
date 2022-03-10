@@ -42,6 +42,10 @@ export default {
 
 #navBar {
   grid-area: header;
+  background-color: rgb(246, 225, 250);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 #content {
