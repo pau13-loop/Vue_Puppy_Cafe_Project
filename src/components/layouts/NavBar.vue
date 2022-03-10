@@ -38,4 +38,8 @@ export default {
 .linkNavBar {
   color: #d3618d;
 }
+
+.linkNavBar:hover {
+  color: rgb(194, 173, 194);
+}
 </style>
