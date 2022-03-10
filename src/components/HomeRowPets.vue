@@ -71,7 +71,7 @@ export default {
 }
 
 .imageHome {
-  height: 100%;
+  height: 75%;
   border-radius: 10px;
 }
 

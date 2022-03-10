@@ -19,11 +19,11 @@
       <b-row>
         <b-col class="columnImg">
           <div class="imgOne">
-            <img
+            <!-- <img
               class="imgOne"
               alt="Image puppy cafe"
               src="../assets/img/about/img-4.webp"
-            />
+            /> -->
           </div>
         </b-col>
       </b-row>
@@ -109,11 +109,11 @@
       <b-row>
         <b-col class="columnImg">
           <div class="imgOne">
-            <img
+            <!-- <img
               class="imgOne"
               alt="Image puppy cafe"
               src="../assets/img/about/img-5.webp"
-            />
+            /> -->
           </div>
         </b-col>
       </b-row>
