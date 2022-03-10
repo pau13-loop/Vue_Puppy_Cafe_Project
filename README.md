@@ -79,3 +79,11 @@ Start development with: `npm run serve`
 ## Vue bind images by Props
 
 > https://www.codegrepper.com/code-examples/javascript/how+to+pass+image+as+props+in+vue+js
+
+# Bibliography
+
+- https://app.netlify.com/
+- https://getbootstrap.com/
+- https://bootstrap-vue.org/
+- https://www.w3schools.com/
+- https://www.freeconvert.com/jpg-to-webp
